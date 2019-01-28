@@ -1,0 +1,244 @@
+/* This makes our image cover entire browser window */
+body, html {
+  height: 100%;
+}
+
+/* This style centers and scales background image */
+
+body {
+  background: url("../img/scuba-dive-blogger.jpg") no-repeat center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+/* End comment */
+
+.wrapper {
+  width: 70%
+  margin: auto;
+}
+
+  h1 {
+    padding-top: 110px;
+    font-family: sans-serif, serif;
+    font-size: 8em;
+    color: white;
+    margin-bottom: -1.5%;
+    margin-top: 80px;
+}
+
+ h3 {
+   color: white;
+ }
+
+  .title {
+    font-size: 2em;
+    color: white;
+    font-weight: lighter;
+    font-family: sans-serif, serif;
+    margin-bottom: 12%;
+    margin-top: 1.5%;
+  }
+
+
+  .topnav a {
+    color: white;
+    font-family: Arial;
+    font-size: 1.5em;
+    padding: 0, 10px;
+    margin-bottom: 80px;
+
+  }
+
+   p {
+     color: white;
+     text-align: center;
+     line-height: 1.3em;
+
+
+ }
+
+   #main-footer {
+    padding-top: 100px;
+    padding-bottom: 21px;
+  }
+
+  a:link {
+    color: white;
+    text-decoration: none;
+    padding-right: 40px;
+  }
+
+  a:visited {
+    color: lightgrey;
+  }
+
+  a:hover {
+    color: #46afe3;
+  }
+
+  a:active {
+    color: lightcoral;
+  }
+
+  #contact {
+    color:white;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 20%;
+    padding-top: 50px;
+  }
+
+  #contact p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+
+
+
+
+  /* Flexbox Styles/ Classes */
+
+
+@media (min-width: 1200px) {
+.container {
+  display: flex;
+  background-color: black;
+  border: none;
+  justify-content: space-between;
+  font-family: sans-serif;
+  padding-bottom: 10%;
+  padding-top: 8%;
+  margin: 5px;
+ }
+}
+
+.flex-item {
+    margin: 0 5px;
+    padding: 0 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+
+@media (min-width: 769px) {
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+}
+
+/* Flex-box Styles/ Gallery */
+
+.gallery {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  background-size: cover;
+  border: none;
+  padding-bottom: 20%;
+  padding-top: 5%;
+}
+
+
+ img {
+  width: 300px;
+  height: 180px;
+  margin: 5px;
+  border: none;
+  padding-bottom: 20px;
+}
+
+.pic {
+  width: 380px;
+  height: 260px;
+  border: none;
+  transition: transform .5s cubic-bezier(0.6, 1.5, 0.6, 1);
+}
+
+.pic:hover {
+  transform: scale(1.3) translateY(-15px)
+}
+
+/* Form Styling */
+
+.classForm {
+  width: 480px;
+  height: 575px;  
+  background: rgba(0,0,0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-top: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.classForm h1 {
+  font-size: 1.80em;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+.classForm input {
+  width: 100%;
+  margin-bottom: 5px;
+  /* text-align: justify; */
+  padding-left: 5px;
+  border: none;
+  border-bottom: solid lightblue;
+  background: transparent;
+  outline: none;
+  height: 15px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.classForm p {
+  text-align: left;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+
+
+button {
+ width: 50%;
+ border-radius: 20px;
+ height: 40px;
+ border: none;
+ outline: none;
+ margin-top: 30px;
+ position: relative;
+ left; 50%;
+ transform: translate(50%);
+}
+
+
+.backToTop {
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
