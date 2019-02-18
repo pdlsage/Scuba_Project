@@ -2,23 +2,24 @@
  <html>
   <head>
     <meta charset="utf-8">
-    <title>Scuba Site</title>    
+    <title>Scuba Site</title> 
+    <link rel="stylesheet" href="css/normalize.css">  
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
   </head>
   <body>
   <div class="wrapper">
     <header>
-      <!-- <ul id="icons">
-        <li><a href="#"><img src="img/Social icons by dreamstale (3).png"></li>
-        <li><a href="#"><img src="img/Social icons by dreamstale (6).png"></li> 
+      <ul id="icons">
         <li><a href="#"><img src="img/Social icons by dreamstale (33).png"></li>
-        <li><a href="#"><img src="img/Social icons by dreamstale (35).png"></li> 
-      </ul> -->
+        <li><a href="#"><img src="img/Social icons by dreamstale (3).png"></li> 
+        <li><a href="#"><img src="img/Social icons by dreamstale (6).png"></li>
+      </ul>      
       <h1>Diving</h1>
       <h2 class="title">Into A Brand New World</h2>
     </header>
 
+<div>
   <nav class="topnav">
      <li><a class="active" href="index.html">Home</a></li>
      <li><a href="classes.html">Classes</a></li>
@@ -30,7 +31,7 @@
 
 <!------  Gallery  ------->
 
-  <!-- <section>
+   <section>
     <ul>
       <li>
         <img src="img/cavediverdownload.jpg" alt="Diver Exploring a Cave">
@@ -44,13 +45,39 @@
         <img src="img/anemone-aquarium-aquatic-1522160.jpg" alt="Clorful Clown Fish">
       </li>
     </ul>
-  </section> -->
+  </section>
 
-   -->
+   
+  <footer>
+   <a href="http//twitter.com/pdlsage"><img src="img/facebook-wrap.png" alt="Facebook Logo">
+    <img src="img/twitter-wrap.png" alt="Twitter Logo">
+    <p>&copy; 2019 Doug Sage.</p>
+  </footer>
 
-<!--  Contact and Footer  -->
 
-    <!-- <section id="contact">
+  <!--  Class Sign Up Form  -->
+
+  <div class="classForm" id="learn_to_dive">
+    <h1>Sign Up For A Class</h1>
+       <form action="index.html" method="post">
+         <p>Name</p>
+         <input type="text" name="name" placeholder="Enter Name">
+         <p>Email</p>
+         <input type="email" name="email" placeholder="Enter Email">
+         <p>Phone</p>
+         <input type="phone" name="phone" placeholder="Enter Phone Number"><br>
+         <h3>Select a Class</h3>
+         <input type="radio" name="class"><label for="open_water">Open Water</label><br>
+         <input type="radio" name="class"><label for="advanced">Advanced</label><br>
+         <input type="radio" name="class"><label for="photography">Photography</label><br>
+         <button type="submit">Sign Up</button>
+       </form>
+   </div>
+
+
+<!--  Contact Page  -->
+
+    <section id="contact">
      <footer>
       <h2>Contact Us</h2>
         <p><strong>Email:</strong> us at dive@gmail.com</p>
@@ -61,31 +88,10 @@
           123 Scuba Way<br>
           Venice, Fl 34293
         </address>
-     </section>
-     <!-- <a href="#top">Back to top</a> -->
-   </footer> -->
-
-
- <!--  Class Sign Up Form  -->
-
- <!-- <div class="classForm" id="learn_to_dive">
-   <h1>Sign Up For A Class</h1>
-      <form action="index.html" method="post">
-        <p>Name</p>
-        <input type="text" name="name" placeholder="Enter Name">
-        <p>Email</p>
-        <input type="email" name="email" placeholder="Enter Email">
-        <p>Phone</p>
-        <input type="phone" name="phone" placeholder="Enter Phone Number"><br>
-        <h3>Select a Class</h3>
-        <input type="radio" name="class"><label for="open_water">Open Water</label><br>
-        <input type="radio" name="class"><label for="advanced">Advanced</label><br>
-        <input type="radio" name="class"><label for="photography">Photography</label><br>
-        <button type="submit">Sign Up</button>
-      </form>
-  </div> -->
+      </footer> 
+     </section> 
 
  
- </div>
-</body>
+   </div>
+  </body>
  </html>
