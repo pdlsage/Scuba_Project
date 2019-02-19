@@ -1,6 +1,7 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 
@@ -28,9 +29,10 @@ body {
 }
   
 
-  #icons {
-    float: left;
-  }
+  .icons li {
+    display: inline;
+    margin: 10px;
+}
 
   h1 {
     padding-top: 110px;
@@ -38,7 +40,7 @@ body {
     font-size: 8.5em;
     color: white;
     margin-bottom: -1.5%;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
  h3 {
@@ -55,20 +57,19 @@ body {
   }
 
 
-  .topnav a.active {
+  .topnav li {
+    display: inline;
     color: white;
     font-family: Roboto;
     font-size: 1.5em;
-    padding: 0, 10px;
-    margin-bottom: 80px;
+    font-weight: lighter;
+    margin: 25px 25px;
   }
 
    /* p {
      color: white;
      text-align: center;
      line-height: 1.3em;
-
-
  }
 
    #main-footer {
@@ -80,7 +81,7 @@ body {
     color: white;
     text-decoration: none;
     padding-right: 40px;
-  }
+  } */
 
   a:visited {
     color: lightgrey;
@@ -91,10 +92,10 @@ body {
   }
 
   a:active {
-    color: lightcoral;
+    color: lightcoral; 
   }
 
-  #contact {
+  /* #contact {
     color:white;
     font-size: 1.3em;
     font-family: sans-serif;
@@ -107,8 +108,8 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
-  } */
-
+  } 
+ */
 
   /* h2 {
     margin-bottom: 0;
