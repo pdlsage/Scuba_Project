@@ -256,18 +256,19 @@ button {
    Gallery Page
 ---------------------*/
 
+
+
 @media screen and (min-width: 480px) {
     #gallery li {
       width: 28.3333%;
     }
 }
-
-@media screen and (min-width: 660px) {
+ /* @media screen and (min-width: 660px) {
     #gallery li {
-      width: 28.333%;
+      width: ;
     }
-}
-
+} 
+  */
 
 
 
